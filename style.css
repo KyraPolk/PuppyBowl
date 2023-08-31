@@ -22,3 +22,9 @@ ul{
     flex-direction: column;
   }
 }
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}

@@ -16,7 +16,7 @@ console.log(pupArray);//outcome is an array of 10 objects containing each puppy 
 const html = pupArray.map(puppy => {
   return `
   <li>
-  <a><h2>${puppy.name}</h2></a>
+  <a href="index.html"><h2>${puppy.name}</h2></a>
   <p>${puppy.breed}</p>
   </li>
   `
@@ -28,7 +28,12 @@ ul.innerHTML = html;
 //fetcher();
 
 //now that we've fetched the data from the URI we need to "render" it to the webpage
-function render(){
+function render(){//reusable function to get my changes to the webpage
   fetcher()
 }//wont see anything until we invoke render function
 render()
+
+// create an event listener that will display the information
+//window.addEventListener("hashchange", () => {
+
+//})
