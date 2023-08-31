@@ -1,0 +1,24 @@
+body{
+  background-color: lightcyan;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 2rem;
+}
+ul > li{
+  border: 3px rgb(240, 207, 118) solid;
+  list-style: none;
+  padding:1rem;
+}
+ul{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media(max-width:300px){
+  ul{
+    flex-direction: column;
+  }
+}
