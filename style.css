@@ -11,6 +11,8 @@ ul > li{
   border: 3px rgb(240, 207, 118) solid;
   list-style: none;
   padding:1rem;
+  width: 33%;
+  background-color: antiquewhite;
 }
 ul{
   display:flex;
