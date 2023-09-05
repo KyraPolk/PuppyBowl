@@ -14,6 +14,7 @@ pupArray = json.data.players;//to get an array
 console.log(pupArray);//outcome is an array of 10 objects containing each puppy info
 //next I want to loop using .map to retrieve the name and breed the name I want in an <h2> and the breed I want in a <p>
 const hash = window.location.hash.slice(1) * 1
+console.log(hash)
 const html = pupArray.map(puppy => {
   return `
   <li>
@@ -38,6 +39,6 @@ function render(){//reusable function to get my changes to the webpage
 render()
 
 // create an event listener that will display the information
-//window.addEventListener("hashchange", () => {
+window.addEventListener("hashchange", () => {
 
-//})
+})
